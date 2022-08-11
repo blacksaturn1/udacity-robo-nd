@@ -67,7 +67,7 @@ set(simple_arm_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("TRUE" STREQUAL "TRUE")
-  set(simple_arm_SOURCE_PREFIX /home/robond/projects/udacity-robo-nd/catkin_ws/src/simple_arm)
+  set(simple_arm_SOURCE_PREFIX /home/robond/projects/udacity-robo-nd/catkin_ws/src/simple_arm2)
   set(simple_arm_DEVEL_PREFIX /home/robond/projects/udacity-robo-nd/catkin_ws/devel)
   set(simple_arm_INSTALL_PREFIX "")
   set(simple_arm_PREFIX ${simple_arm_DEVEL_PREFIX})
@@ -103,7 +103,7 @@ if(NOT "/home/robond/projects/udacity-robo-nd/catkin_ws/devel/include " STREQUAL
         message(FATAL_ERROR "Project 'simple_arm' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  Ask the maintainer 'karim <karim@udacity.com>' to fix it.")
       endif()
     else()
-      message(FATAL_ERROR "Project 'simple_arm' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/robond/projects/udacity-robo-nd/catkin_ws/src/simple_arm/${idir}'.  Ask the maintainer 'karim <karim@udacity.com>' to fix it.")
+      message(FATAL_ERROR "Project 'simple_arm' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/robond/projects/udacity-robo-nd/catkin_ws/src/simple_arm2/${idir}'.  Ask the maintainer 'karim <karim@udacity.com>' to fix it.")
     endif()
     _list_append_unique(simple_arm_INCLUDE_DIRS ${include})
   endforeach()

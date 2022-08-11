@@ -1,2 +1,2 @@
-first_package:simple_arm
+first_package:simple_arm2
 -DCATKIN_DEVEL_PREFIX=/home/robond/projects/udacity-robo-nd/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/robond/projects/udacity-robo-nd/catkin_ws/install -G Unix Makefiles

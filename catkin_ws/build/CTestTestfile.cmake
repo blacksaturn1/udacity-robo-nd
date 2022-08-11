@@ -6,4 +6,4 @@
 # testing this directory and lists subdirectories to be tested as well.
 subdirs(gtest)
 subdirs(first_package)
-subdirs(simple_arm)
+subdirs(simple_arm2)

@@ -359,10 +359,10 @@ rospy_DIR:PATH=/opt/ros/kinetic/share/rospy/cmake
 rostime_DIR:PATH=/opt/ros/kinetic/share/rostime/cmake
 
 //Value Computed by CMake
-simple_arm_BINARY_DIR:STATIC=/home/robond/projects/udacity-robo-nd/catkin_ws/build/simple_arm
+simple_arm_BINARY_DIR:STATIC=/home/robond/projects/udacity-robo-nd/catkin_ws/build/simple_arm2
 
 //Value Computed by CMake
-simple_arm_SOURCE_DIR:STATIC=/home/robond/projects/udacity-robo-nd/catkin_ws/src/simple_arm
+simple_arm_SOURCE_DIR:STATIC=/home/robond/projects/udacity-robo-nd/catkin_ws/src/simple_arm2
 
 //The directory containing a CMake configuration file for std_msgs.
 std_msgs_DIR:PATH=/opt/ros/kinetic/share/std_msgs/cmake
