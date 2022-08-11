@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/robond/projects/udacity-robo-nd/catkin_ws/install/setup.sh
